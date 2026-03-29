@@ -20,12 +20,12 @@ How it works: When you ask a question, the model processes your input against a 
 
 Analysis: It doesn't just search for text; it predicts the most clinically relevant response based on the patterns it learned during training on vast amounts of medical literature.
 
-2. Deterministic Predictive Scoring
+Deterministic Predictive Scoring
 The app implements clinical algorithms like SOFA, qSOFA, and SIRS.
 How it works: These are "rule-based" predictive models. They take real-time data (Heart Rate, MAP, WBC, etc.) and calculate a score that predicts the statistical likelihood of organ failure or mortality.
 Predictive Value: For example, a qSOFA score ≥ 2 is a strong predictor of poor outcomes in patients with suspected infection.
 
-4. How it could be extended (Real-world ML)
+How it could be extended (Real-world ML)
 In a production environment, this app would typically include:
 Early Warning Models: Using historical patient data to train a model (like a Random Forest or LSTM) to predict sepsis 4–6 hours before clinical symptoms appear.
 Trend Analysis: The charts in my app (Heart Rate, MAP) provide the "features" that an ML model would use to identify subtle patterns of deterioration that a human might miss.
