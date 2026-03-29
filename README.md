@@ -1,7 +1,9 @@
 **1. Project Description**
+
 SepsisGuard AI is a high-performance, AI-powered clinical decision support system (CDSS) designed for ICU physicians and nursing staff. It streamlines sepsis management by providing real-time risk scoring, protocol tracking, and an intelligent clinical copilot to improve patient outcomes during the critical "Golden Hour."
 
 **2. Key Features**
+
 Real-Time Risk Analysis: Instant calculation and visualization of critical sepsis scores (SIRS, qSOFA, SOFA).
 
 Golden Hour Bundle Tracker: Interactive checklist for the Surviving Sepsis Campaign (SSC) 1-hour bundle (Lactate, Blood Cultures, Antibiotics, Fluids, Vasopressors).
@@ -15,6 +17,7 @@ Role-Based Access Control (RBAC): Tailored interfaces for Physicians, Nurses, an
 Audit & Compliance: Comprehensive audit logging system to track clinical actions and system access.
 
 **3.MACHINE LEARNING AND PREDICTIVE ANALYSIS**
+
 Generative AI (The Clinical Copilot)
 How it works: When you ask a question, the model processes your input against a "System Instruction" that contains medical knowledge (like the Surviving Sepsis Campaign guidelines).
 
@@ -44,6 +47,7 @@ Library: Recharts — Used for longitudinal trend analysis, allowing clinicians 
 Logic: TypeScript — The core predictive scoring (SIRS, qSOFA, SOFA) is implemented as deterministic mathematical models in the frontend and backend 
 
 **5. Mock Credentials (for testing)** 
+
 Physician: physician / Doc@2024 
 Nurse: nurse / Nurse@2024 
 Admin: admin / Admin@2024 
