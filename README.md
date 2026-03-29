@@ -13,27 +13,29 @@ Audit & Compliance: Comprehensive audit logging system to track clinical actions
 Generative AI (The Clinical Copilot)
 How it works: When you ask a question, the model processes your input against a "System Instruction" that contains medical knowledge (like the Surviving Sepsis Campaign guidelines).
 Analysis: It doesn't just search for text; it predicts the most clinically relevant response based on the patterns it learned during training on vast amounts of medical literature.
+
 2. Deterministic Predictive Scoring
 The app implements clinical algorithms like SOFA, qSOFA, and SIRS.
 How it works: These are "rule-based" predictive models. They take real-time data (Heart Rate, MAP, WBC, etc.) and calculate a score that predicts the statistical likelihood of organ failure or mortality.
 Predictive Value: For example, a qSOFA score ≥ 2 is a strong predictor of poor outcomes in patients with suspected infection.
-3. How it could be extended (Real-world ML)
+
+4. How it could be extended (Real-world ML)
 In a production environment, this app would typically include:
 Early Warning Models: Using historical patient data to train a model (like a Random Forest or LSTM) to predict sepsis 4–6 hours before clinical symptoms appear.
 Trend Analysis: The charts in my app (Heart Rate, MAP) provide the "features" that an ML model would use to identify subtle patterns of deterioration that a human might miss.
 
 **4. Tech Stack**
-Frontend: React 19, Vite, Tailwind CSS 4
-Animations: Motion (formerly Framer Motion)
-Backend: Node.js, Express (Mock API & Dev Server)
-Data Visualization & Feature Analysis :
-Library: Recharts — Used for longitudinal trend analysis, allowing clinicians to visually "predict" patient deterioration by observing changes in vital signs over time.
-Logic: TypeScript — The core predictive scoring (SIRS, qSOFA, SOFA) is implemented as deterministic mathematical models in the frontend and backend
+Frontend: React 19, Vite, Tailwind CSS 4 
+Animations: Motion (formerly Framer Motion) 
+Backend: Node.js, Express (Mock API & Dev Server) 
+Data Visualization & Feature Analysis : 
+Library: Recharts — Used for longitudinal trend analysis, allowing clinicians to visually "predict" patient deterioration by observing changes in vital signs over time. 
+Logic: TypeScript — The core predictive scoring (SIRS, qSOFA, SOFA) is implemented as deterministic mathematical models in the frontend and backend 
 
-**5. Mock Credentials (for testing)**
-Physician: physician / Doc@2024
-Nurse: nurse / Nurse@2024
-Admin: admin / Admin@2024
+**5. Mock Credentials (for testing)** 
+Physician: physician / Doc@2024 
+Nurse: nurse / Nurse@2024 
+Admin: admin / Admin@2024 
 
 <img width="534" height="895" alt="Screenshot 2026-03-29 223212" src="https://github.com/user-attachments/assets/5b26530f-ce27-4181-85d4-05b23246cbf5" />    <img width="459" height="622" alt="Screenshot 2026-03-29 222943" src="https://github.com/user-attachments/assets/955e14d6-f4db-4b75-8bdf-34d4f3d6232c" />
 
