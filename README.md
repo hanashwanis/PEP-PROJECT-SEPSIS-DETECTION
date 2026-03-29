@@ -36,8 +36,12 @@ Nurse: nurse / Nurse@2024
 Admin: admin / Admin@2024
 
 <img width="534" height="895" alt="Screenshot 2026-03-29 223212" src="https://github.com/user-attachments/assets/5b26530f-ce27-4181-85d4-05b23246cbf5" />
+
 <img width="1560" height="991" alt="Screenshot 2026-03-29 223002" src="https://github.com/user-attachments/assets/680c2acf-3f43-430a-a8aa-186b7435ea89" />
+
 <img width="1536" height="900" alt="Screenshot 2026-03-29 223027" src="https://github.com/user-attachments/assets/c81f4339-01f2-4ab3-85cd-842c62da9637" />
+
 <img width=<img width="1534" height="867" alt="Screenshot 2026-03-29 223100" src="https://github.com/user-attachments/assets/9d9d2c1d-b04f-45e8-ae30-e90fdf515001" />
-<img width="1536" height="900" alt="Screenshot 2026-03-29 223027" src="https://github.com/user-attachments/assets/73a3c86b-90c2-4fc2-8723-b905745b37dc" />
+
+<img width="1560" height="955" alt="Screenshot 2026-03-29 223137" src="https://github.com/user-attachments/assets/6eaa61d9-55e1-4574-b1bf-b10dee2d7328" />
 
