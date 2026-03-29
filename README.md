@@ -3,15 +3,21 @@ SepsisGuard AI is a high-performance, AI-powered clinical decision support syste
 
 **2. Key Features**
 Real-Time Risk Analysis: Instant calculation and visualization of critical sepsis scores (SIRS, qSOFA, SOFA).
+
 Golden Hour Bundle Tracker: Interactive checklist for the Surviving Sepsis Campaign (SSC) 1-hour bundle (Lactate, Blood Cultures, Antibiotics, Fluids, Vasopressors).
+
 AI Clinical Copilot: A Gemini 3 Flash-powered assistant providing evidence-based guidance on protocols and score interpretation.
+
 Longitudinal Vitals Monitoring: High-density charts for tracking MAP, Heart Rate, Temperature, and WBC trends.
+
 Role-Based Access Control (RBAC): Tailored interfaces for Physicians, Nurses, and Clinical Admins.
+
 Audit & Compliance: Comprehensive audit logging system to track clinical actions and system access.
 
 **3.MACHINE LEARNING AND PREDICTIVE ANALYSIS**
 Generative AI (The Clinical Copilot)
 How it works: When you ask a question, the model processes your input against a "System Instruction" that contains medical knowledge (like the Surviving Sepsis Campaign guidelines).
+
 Analysis: It doesn't just search for text; it predicts the most clinically relevant response based on the patterns it learned during training on vast amounts of medical literature.
 
 2. Deterministic Predictive Scoring
@@ -25,11 +31,16 @@ Early Warning Models: Using historical patient data to train a model (like a Ran
 Trend Analysis: The charts in my app (Heart Rate, MAP) provide the "features" that an ML model would use to identify subtle patterns of deterioration that a human might miss.
 
 **4. Tech Stack**
+
 Frontend: React 19, Vite, Tailwind CSS 4 
+
 Animations: Motion (formerly Framer Motion) 
+
 Backend: Node.js, Express (Mock API & Dev Server) 
+
 Data Visualization & Feature Analysis : 
 Library: Recharts — Used for longitudinal trend analysis, allowing clinicians to visually "predict" patient deterioration by observing changes in vital signs over time. 
+
 Logic: TypeScript — The core predictive scoring (SIRS, qSOFA, SOFA) is implemented as deterministic mathematical models in the frontend and backend 
 
 **5. Mock Credentials (for testing)** 
